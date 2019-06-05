@@ -132,5 +132,7 @@ def adding_to_dennis
  languages_var = programmer_hash[:dennis_ritchie][:languages]
  languages_var << "Assembly"
 
+programmer_hash[:dennis_ritchie][:languages] = languages_var
+
  return programmer_hash
 end
